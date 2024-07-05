@@ -18,9 +18,9 @@ body {
 .texto{
     font-size: 35px;
     text-transform: uppercase;
-    background: linear-gradient(45deg, #F21A1D ,#F53933,#F9584A, #FC7660, #FF9576);
+    background: linear-gradient(45deg, #F21A1D ,#F53933,#F9584A, #FC7660,#fff);
     background-size: 400% 100% ;
-    animation: degrade 10s linear infinite alternate;
+    animation: degrade 9s linear infinite alternate;
 
     -webkit-background-clip: text ;
     -webkit-text-fill-color: transparent;
