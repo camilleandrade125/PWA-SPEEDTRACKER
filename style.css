@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Glitch+Pop&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+.texto{
+    font-size: 35px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #F21A1D ,#F53933,#F9584A, #FC7660, #FF9576);
+    background-size: 400% 100% ;
+    animation: degrade 10s linear infinite alternate;
+
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+}
+@keyframes degrade {
+    0%{
+        background-position-x: 0%;
+    }    
+    100%{
+        background-position: 400%;
+    }
+}
+
