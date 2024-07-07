@@ -6,10 +6,14 @@
     <link rel="shortcut icon" href="/src/Location.png" type="image/x-icon">
     <link rel="stylesheet" href="styleprince.css">
     <link rel="shortcut icon" href="/src/Location.png" type="image/x-icon">
+
     <title>SpeedTracker</title>
+
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
     crossorigin=""/>
+
+    <link rel="manifest" href="manifest.json">
 </head>
 <body>
     <header>
@@ -26,8 +30,19 @@
     </header>
 
         <div id="map">
-
+            
         </div>
+
+        <div class="input-container">
+            <label for="position-A">Posição A:</label>
+            <input type="text" id="position-A" placeholder="ex: -1.45502, -48.5024">
+        </div>
+        <div class="input-container">
+            <label for="position-B">Posição B:</label>
+            <input type="text" id="position-B" placeholder="ex: -1.45502, -48.5024">
+        </div>
+        <button id="btn-verification">Marcar Posições</button>
+        <div id="map"></div>
     
 
     <footer>
